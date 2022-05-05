@@ -1,0 +1,65 @@
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Напоминалка</title>
+		<link rel="shortcut icon" href="favicon.png" type="image/png">
+		<link rel="stylesheet" href="styles/styles.css" />
+		<script type="text/javascript" src="eel.js"></script>
+	</head>
+	<body>
+		<header></header>
+		<main>
+			<div class="task_container">
+				<span>Новые</span>
+				<div class="task new_task">
+					<div
+						id="new_task_input"
+						contenteditable="True"
+					></div>
+					<div class="task_footer">
+						<button id="add_new_task">
+							<img src="btn_pics/add.svg" alt="+" />
+						</button>
+					</div>
+				</div>
+				<div class="task_wrapper new_tasks">
+					<div class="task">
+						<div class="task_footer">
+							<div class="date">22.01.22</div>
+							<button class="done">
+								<img src="btn_pics/done.svg" alt="+" />
+							</button>
+						</div>
+					</div>
+					<div class="task">
+						<div class="task_footer">
+							<div class="date">22.01.22</div>
+							<button class="done">
+								<img src="btn_pics/done.svg" alt="+" />
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="task_container">
+				<span>Выполненные</span>
+				<div class="task_wrapper completed_tasks">
+					<div class="task">
+						<div class="task_content"></div>
+					</div>
+					<div class="task">
+						<div class="task_content"></div>
+					</div>
+					<div class="task">
+						<div class="task_content"></div>
+					</div>
+					<div class="task">
+						<div class="task_content"></div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<script type="text/javascript" src="index.js"></script>
+	</body>
+</html>
